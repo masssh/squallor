@@ -1,0 +1,16 @@
+{
+  "name": "squallor",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:masssh/squallor.git",
+  "author": "masssh <utm.ver.2.0@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.8",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
