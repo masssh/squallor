@@ -1,16 +1,21 @@
 {
   "name": "squallor",
   "version": "1.0.0",
-  "main": "main.js",
-  "repository": "git@github.com:masssh/squallor.git",
-  "author": "masssh <utm.ver.2.0@gmail.com>",
+  "description": "An Electron application written with Typescript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "masssh",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^7.1.8",
-    "eslint": "^6.8.0",
-    "eslint-config-google": "^0.14.0"
-  },
-  "scripts": {
-    "start": "electron ."
+    "electron": "^8.0.1",
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.7.0"
   }
 }
