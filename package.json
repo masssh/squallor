@@ -11,7 +11,7 @@
   "author": "masssh",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.0.1",
+    "electron": "^8.2.4",
     "prettier": "^1.19.1",
     "tslint": "^6.0.0",
     "tslint-config-prettier": "^1.18.0",
